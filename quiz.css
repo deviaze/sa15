@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(31, 42, 71);
+    color: whitesmoke;
+    font-family: "Consolas";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 115%;
+}
+
+pre code {
+    display: block;
+    background: #002451;
+    color: white;
+    font-family: Menlo, Monaco, Consolas, monospace;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.button {
+    min-width: 400pt;
+    display: flex;
+    cursor: pointer;
+
+    background-color: cadetblue;
+    height: 40pt;
+
+    
+    input {
+        margin-left: 12pt;
+    }
+    p {
+        margin-left: 12pt;
+    }
+
+}
+
+.button:hover {
+    background-color: blue;
+}
